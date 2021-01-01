@@ -1,0 +1,458 @@
+/* fonts */
+/* font-family: 'Major Mono Display', monospace;
+font-family: 'Ubuntu Mono', monospace; */
+
+body{
+    margin: 0;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 800;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 50px;
+    margin: 2%;
+}
+
+h3{
+    margin: 0;
+}
+
+p{
+    font-size: 25px;
+    margin: 0;
+}
+
+
+/* NEON THEME */
+
+.navbar-wrapper{
+    background: linear-gradient(#892be2, #3cb9fcc0);
+}
+
+.navbar{
+    height: 150px;
+    margin: 0 7%;
+    background: linear-gradient(#892be2, #3cb9fcc0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 300px;
+    margin-top: 10px;
+}
+
+.nav-list{
+    width: 30%;
+}
+
+.nav-list ul{
+    font-size: 22px;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .nav-list li{
+    height: 50px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    border-radius: 2px;
+} */
+
+.header{
+    height: 570px;
+    background-color: #3cb9fc;
+    background-image: url("https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    background-position: bottom;
+    opacity: 0.6;
+}
+
+.header-text-centering{
+    position: absolute;
+    margin: 2.5% 7%;
+}
+
+.header-text{
+    width: 500px;
+    background: rgba(255, 255, 255, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.top-form{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+.top-inputs-box{
+    display: flex;
+    align-items: center;
+}
+
+.top-input{
+    display: flex;
+    width: 200px;
+    text-align: center;
+}
+
+.top-button-box{
+    position: relative;
+    bottom: 20px;
+}
+
+.top-button{
+    height: 70px;
+}
+
+button{
+    background-color: rgb(35, 190, 35);
+    /* background-color: #cb6ce6; pink */
+    /* background-color: #3cb9fc; bright blue */
+}
+
+button{
+    color: rgb(37, 37, 37);
+    color: rgb(238, 238, 238);
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+
+.bg-tint{
+    background-color: #3cb9fca2;
+}
+
+.free-wrapper{
+    height: 930px;
+    background-color: #0c0c0c;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.try-me{
+    height: 230px;
+    width: 89%;
+    margin: 3% 2% 0;
+    font-size: 120%;
+    color: rgb(224, 224, 224);
+    /* background-color: rgb(44, 44, 44);
+    background-color: #ffffff18; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.free{
+    height: 725px;
+    background-color: palegoldenrod; /* to check thumbnails sizes - if bg not showing, sizing is correct! */
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.7fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.green-me{
+    color: rgb(35, 190, 35);;
+}
+
+.gamesmall{
+    height: 362.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gamebig{
+    height: 362.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dice{
+   background-color: #393e46; 
+}
+
+.quack{
+    background-color: #ffff56; 
+ }
+
+ .rock{
+    background: radial-gradient(ellipse at top, hsl(214, 47%, 23%), hsl(238, 51%, 20%));
+ }
+
+ .randomstory{
+    background-color: #009999; 
+ }
+
+ .drum{
+    background-color: #283149; 
+ }
+
+ .simon{
+    background-color: #011f3f; 
+ }
+
+img{
+    width: 100%;
+}
+
+.subscribe{
+    height: 600px;
+    width: 100%;
+    background-color: #3cb9fcc0;
+    background: linear-gradient(#892be2, #3cb9fcc0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-box{
+    height: 85%;
+    width: 70%;
+    color: rgb(224, 224, 224);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-box-text{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-box{
+    display: flex;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+input{
+    height: 30px;
+    width: 300px;
+    padding: 5%;
+    margin: 2%;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+    background-color: rgb(238, 238, 238);
+}
+
+.button-box{
+    display: flex;
+    align-items: center;
+    margin: 5%;
+}
+
+button{
+    height: 80px;
+    width: 170px;
+    float: right;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 19px;
+    /* color: rgb(85, 85, 85); */
+}
+
+.footer{
+    height: 150px;
+    background-color: #3cb9fc;
+    background-color: rgb(20, 20, 20);
+}
+
+/* BLACK THEME */
+.navbar-wrapper{
+    background: black;
+}
+
+.navbar{
+    height: 120px;
+    background: linear-gradient(rgb(0, 0, 0), #121313);
+    background: black;
+}
+
+.navbar li{
+    color: rgb(35, 190, 35);
+    height: 60px;
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar li:hover{
+    color: rgb(246, 255, 246);
+    color: rgb(255, 255, 255);
+    height: 50px;
+    width: 150px;
+    background-color: rgb(35, 190, 35);
+    background-color: rgb(41, 230, 41);
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(35, 190, 35, 0.5);
+    transform: translateY(-0.1rem); /* this makes the button move up 1px when you hover over it */
+    transition: transform 150ms; /* makes it move more slowly instead of jumping */
+}
+
+.header{
+    opacity: 1;
+    background-image: url("https://cdn.pixabay.com/photo/2015/09/29/15/12/stars-964022_960_720.png");
+    background-size: contain;
+}
+
+.header2{
+    /* height: 700px;
+    background-image: url("https://cdn.pixabay.com/photo/2018/04/11/17/11/background-3311042_960_720.jpg");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 60%; */
+}
+
+.header-text-centering{
+    z-index: 2;
+}
+
+button:hover{
+    color: rgb(160, 240, 160);
+    color: rgb(37, 37, 37);
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(235, 235, 235);
+    transform: translateY(-0.1rem); /* this makes the button move up 1px when you hover over it */
+    transition: transform 150ms; /* makes it move more slowly instead of jumping */
+}
+
+.button-box{
+    color: rgb(37, 37, 37);
+}
+
+.space-invaders{
+    width: 60%;
+    position: absolute;
+    right: -30px;
+    top: 22%;
+    z-index: 0;
+}
+
+.free-wrapper{
+    background-image: url(images/Youplay/stars.png);
+    /* background-size: cover; */
+}
+
+.try-me h1{
+    margin-top: 0;
+}
+
+.subscribe{
+    background: #121313;
+}
+
+.footer{
+    background: rgb(5, 5, 5);
+}
+
+/* ATTEMPT */
+
+/* .image {
+    opacity: 1;
+  } */
+  
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .game:hover .image {
+    opacity: 0.1;
+  }
+  
+  .game:hover .middle {
+    opacity: 0.95;
+  }
+
+  .text {
+    background-color: #4CAF50;
+    background-color: rgb(39, 150, 39);
+    background-color: rgb(20, 20, 20);
+    color: rgb(243, 243, 243);
+    padding: 2%;
+    text-align: center;
+    width: 90%;
+  }
+
+  /* FOOTER */
+
+.footer{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo{
+    width: 150px;
+}
+
+.footer-copyright{
+    text-align: center;
+    margin: 2%;
+    width: 100%;
+}
