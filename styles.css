@@ -185,6 +185,12 @@ button{
     color: rgb(35, 190, 35);
 }
 
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .gamesmall{
     height: 362.5px;
     display: flex;
@@ -549,4 +555,19 @@ button:hover{
     text-align: center;
     margin: 2%;
     width: 100%;
+}
+
+@media(max-width: 1140px){
+    .middle{width: 350px}
+}
+
+@media(max-width: 450px){
+    .header-text-centering{height: 100%; margin: 0; display: flex; align-items: center; justify-content: center;}
+    .header-text{width: 90%; padding: 2% 1%;}
+    .free-wrapper{height: 2850px; align-items: center;}
+    .try-me {position: relative; top: 55px;}
+    .free{ margin-top: 100px; }
+    .game {width: 350px; }
+    .subscribe{padding: 6% 0;}
+    .logo{margin-top: 5%;}
 }
